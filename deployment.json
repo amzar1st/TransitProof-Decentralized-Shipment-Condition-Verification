@@ -1,0 +1,37 @@
+{
+  "network": "GenLayer Studio / Studionet",
+  "studio_url": "https://studio.genlayer.com/run-debug",
+  "contract_address": "0x219f1297398dDA9e95020c4900d085C8C1E44c27",
+  "explorer_url": "https://explorer-studio.genlayer.com/address/0x219f1297398dDA9e95020c4900d085C8C1E44c27",
+  "deployer": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+  "source_commit": "ef76c7404f0ddeebcd5fd02f431050cfe578b89a",
+  "contract_source_sha256": "926d24fc491d792159861554ec04ef5a0663a71c1498550405dc7fa39daf68f7",
+  "transactions": {
+    "deploy": "0x4ba718ccbb8e4f1a549f753a1470847338a9156428154ea009dfe7904a446f0e",
+    "register": "0x5ea87efe82910a5a6375377b8ab365427c5724ce5e0d4b95285e30c9ab1945db",
+    "dispatch": "0xb496d8af48c68a0f566d147c983aa6850c3995b0ff05b4608d8e7d4265c68cf3",
+    "dispatch_ack": "0x5d2dc78b4e96ed120e81b0567bbecb0045e098262fe2fcc861e69c6dc58fa319",
+    "arrival": "0xcfa29d964d2be444cc2104caabbba98f24ea1de8038a9330d5bd85e6d721db1d",
+    "arrival_ack": "0xd0a9b7df31fcf802943d3b049998dbec487aa20e54557b6778e345b05ff48c5c",
+    "receipt": "0xf20b8bcbe6883acf8f277e3f372014dea24bf23b728080a66468fd3c00b745fd",
+    "verify": "0xf3c577f2edcde1c3be024c9eb8ed73d33509251dd0b95730b02528689eb4e821",
+    "finalize": "0x014d9b5717527f32f1caedfdb51b5ec1757432c5b037845eff79950ae3701dd7"
+  },
+  "demo": {
+    "synthetic_evidence": true,
+    "single_account_all_roles": true,
+    "verdict": "ACCEPTED",
+    "observations": {
+      "packaging": "PASS",
+      "physical": "PASS",
+      "identity": "PASS"
+    },
+    "state": "FINALIZED"
+  },
+  "verified_at": "2026-11-20T15:17:30+05:30",
+  "transaction_verification": {
+    "all_nine_transactions": "FINALIZED",
+    "all_nine_genvm_results": "SUCCESS",
+    "all_nine_consensus_results": "Accepted"
+  }
+}
